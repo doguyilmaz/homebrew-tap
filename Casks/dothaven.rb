@@ -4,22 +4,22 @@ cask "dothaven" do
 
   on_macos do
     on_intel do
-      sha256 "269f294196b05327c8855565233969e2ecff0890946a47e0820c0c63dea2e753"
+      sha256 "b68572e97172951f97d2c0653042dbd758a0172143387ddb698100ae3b94d9b5"
       url "https://github.com/doguyilmaz/dothaven/releases/download/v#{version}/dothaven_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "0f514e8c793f4bb7af7836a8f878f37575d4249b2316e7682471aaaf5c7aba42"
+      sha256 "65596fd19c9d914814227a1173b342e9abfa4b230ea509eb563a2e38b863a150"
       url "https://github.com/doguyilmaz/dothaven/releases/download/v#{version}/dothaven_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "147c3cc497ac433af1e295fcd135e99c0fd14bf76f8a1cdfb078923be5649a9c"
+      sha256 "da6741bb48e1050aba75d51bb910c90751b35af5c0e57faa2c9934992cf92aea"
       url "https://github.com/doguyilmaz/dothaven/releases/download/v#{version}/dothaven_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "8ed02aef59bcb9d0feafde397842dc01d5f93279d00c8a6f371f4ef3af2d921e"
+      sha256 "9a72775845c41b9424f61cb6ba6df2aa9aa682151bb6c68705cb50a36ef9b650"
       url "https://github.com/doguyilmaz/dothaven/releases/download/v#{version}/dothaven_linux_arm64.tar.gz"
     end
   end
