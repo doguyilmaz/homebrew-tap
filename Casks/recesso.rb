@@ -1,6 +1,6 @@
 cask "recesso" do
-  version "0.1.0"
-  sha256 "776f71ce98c1678ca7399371b383be1f64a3bf44e5ff2c53e98f4d7a9086c0a0"
+  version "1.0.0"
+  sha256 "47a1e11e04f87f481f9867a80ae56213ee150c15f9a1a02126dd008c1d08bfc2"
 
   url "https://github.com/doguyilmaz/recesso/releases/download/v#{version}/Recesso-#{version}.dmg"
   name "Recesso"
