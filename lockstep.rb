@@ -5,13 +5,13 @@
 class Lockstep < Formula
   desc "Keep your AI coding tools in lockstep across machines"
   homepage "https://github.com/doguyilmaz/lockstep"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/doguyilmaz/lockstep/releases/download/v0.1.0/lockstep_0.1.0_darwin_amd64.tar.gz"
-      sha256 "0d25879c9743b95698f46bdd8ae003668ea498beddf478fd1d2234173cf40613"
+      url "https://github.com/doguyilmaz/lockstep/releases/download/v0.1.1/lockstep_0.1.1_darwin_amd64.tar.gz"
+      sha256 "2df75a4657e8f0576ec3935aca27f89a0825b37d37cc931736197b687792deac"
 
       define_method(:install) do
         bin.install "lockstep"
@@ -19,8 +19,8 @@ class Lockstep < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/doguyilmaz/lockstep/releases/download/v0.1.0/lockstep_0.1.0_darwin_arm64.tar.gz"
-      sha256 "cfb6308054a9d7ae51613ddf54ce7e0b7f9f8c44ec1c76784985f0e6430bb6ac"
+      url "https://github.com/doguyilmaz/lockstep/releases/download/v0.1.1/lockstep_0.1.1_darwin_arm64.tar.gz"
+      sha256 "17852434683aa098d094faa1eed67c6645035fe73d052420654e1d62bbd3d886"
 
       define_method(:install) do
         bin.install "lockstep"
@@ -31,16 +31,16 @@ class Lockstep < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/doguyilmaz/lockstep/releases/download/v0.1.0/lockstep_0.1.0_linux_amd64.tar.gz"
-      sha256 "082125e362b026311f44dc445a608069420703a3420e40d897b1a02c671d479f"
+      url "https://github.com/doguyilmaz/lockstep/releases/download/v0.1.1/lockstep_0.1.1_linux_amd64.tar.gz"
+      sha256 "e51877c67c4b7c567c5f1934600f0fe6395c72ff0f44c13238ac0ce9d85295c4"
       define_method(:install) do
         bin.install "lockstep"
         bin.install "lockstep-server"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/doguyilmaz/lockstep/releases/download/v0.1.0/lockstep_0.1.0_linux_arm64.tar.gz"
-      sha256 "4a1ebdb13006b0377720b9c78f8e26480acfbeff5c4b1688e0fc5a60e5dfb14f"
+      url "https://github.com/doguyilmaz/lockstep/releases/download/v0.1.1/lockstep_0.1.1_linux_arm64.tar.gz"
+      sha256 "362a49504a1414b02d8bf77b808d335eca5ae9fa81583c524ef2ba099e7bd83d"
       define_method(:install) do
         bin.install "lockstep"
         bin.install "lockstep-server"
