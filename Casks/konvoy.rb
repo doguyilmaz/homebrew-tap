@@ -7,21 +7,21 @@ cask "konvoy" do
 
   on_macos do
     on_arm do
-      sha256 "07b527e52a1af0ba03a6a9d5c828e2cd8da2e8d05ec75febf35ba3930f0bd20d"
+      sha256 "5c06a02e84bdc25502cc143189494ad51424bdc1d2717c18e0b9497a26fec29e"
       url "https://github.com/doguyilmaz/konvoy/releases/download/v#{version}/konvoy_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "41102b5cff6888f163856d3181e95c725ad6933d1d0f78275145e89f48dcf3e6"
+      sha256 "45277c138c3b810217e58f1f1de71369fd6e9b08408f64e8c390d12942512869"
       url "https://github.com/doguyilmaz/konvoy/releases/download/v#{version}/konvoy_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "e26fefac4fdd734dbc3fba8e47cab697f480b40f45486d8ee46240dd64a50d25"
+      sha256 "4a60cd19b24d47a0f6a3ff803fed495a0f0f03a4236123a6f67243078e927bdc"
       url "https://github.com/doguyilmaz/konvoy/releases/download/v#{version}/konvoy_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "40df95950ae7d5e8cfa0375225a5cb4866c6bf0e7f4c20d2359a267a2170137c"
+      sha256 "7317ad3f7b616debfdb7db1e177f6116c150ad19ad6826edfdb0c709c4cb7b19"
       url "https://github.com/doguyilmaz/konvoy/releases/download/v#{version}/konvoy_linux_amd64.tar.gz"
     end
   end
