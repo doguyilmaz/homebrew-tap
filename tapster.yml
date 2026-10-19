@@ -1,3 +1,13 @@
 version: 1
 tap: doguyilmaz/tap
-packages: []
+packages:
+  - name: tapster
+    repo: doguyilmaz/tapster
+    kind: bun
+    binaries: [tapster]
+    assets:
+      darwin-amd64: "tapster_{version}_darwin_amd64.tar.gz"
+      darwin-arm64: "tapster_{version}_darwin_arm64.tar.gz"
+      linux-amd64: "tapster_{version}_linux_amd64.tar.gz"
+      linux-arm64: "tapster_{version}_linux_arm64.tar.gz"
+    scoop: false
