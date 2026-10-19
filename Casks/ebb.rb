@@ -2,10 +2,10 @@
 cask "ebb" do
   app "ebb.app"
 
-  version "0.1.5"
+  version "0.1.6"
 
   on_macos do
-    sha256 "84448d3632b79f4daece820a9e49d6383fc9e69706290c5c820e795d09f78570"
+    sha256 "43c23158eac2c04d8f045452af9cb2df22b9f11d65e1c94cc200249afb88ee36"
     url "https://github.com/doguyilmaz/ebb/releases/download/v#{version}/ebb_#{version}_darwin_universal.tar.gz"
   end
 
