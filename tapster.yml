@@ -4,6 +4,7 @@ packages:
   - name: tapster
     repo: doguyilmaz/tapster
     kind: bun
+    description: "Sign, notarize and publish the releases of all your projects from one Homebrew tap"
     binaries: [tapster]
     assets:
       darwin-amd64: "tapster_{version}_darwin_amd64.tar.gz"
