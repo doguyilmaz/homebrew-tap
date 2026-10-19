@@ -1,4 +1,13 @@
 {
   "version": 1,
-  "packages": {}
+  "packages": {
+    "tapster": [
+      {
+        "tag": "v1.0.0",
+        "releaseId": 417277180,
+        "checksums": "092fe096353f323dcfa9d9ea24468ffa30161763726e64eda3a8a2b16b39f79f",
+        "status": "publishing"
+      }
+    ]
+  }
 }
