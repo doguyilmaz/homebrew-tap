@@ -1,22 +1,25 @@
 # doguyilmaz/tap
 
-Install anything here with Homebrew:
-
 ```sh
+brew tap doguyilmaz/tap
+brew trust doguyilmaz/tap
 brew install doguyilmaz/tap/<name>
 ```
 
-On Windows, the same repository is a Scoop bucket:
+Homebrew loads casks only from taps you trust; `brew trust` says that you trust this one.
+
+On Windows this repository is also a Scoop bucket:
 
 ```sh
 scoop bucket add doguyilmaz https://github.com/doguyilmaz/homebrew-tap
 scoop install doguyilmaz/<name>
 ```
 
-| Folder | What it holds |
+| Path | What it holds |
 | --- | --- |
-| `Casks/` | Homebrew casks: the apps (battistics, hafifpix, recesso) and the command-line tools (aims, dothaven, ebb, konvoy, lockstep). Every macOS binary is signed with a Developer ID and notarized. |
-| `bucket/` | Scoop manifests for the tools that ship Windows builds (aims). |
-| `tap_migrations.json` | Moves installs of the old `ebb` and `lockstep` formulae to their casks. |
+| `Casks/` | Homebrew casks, written by tapster from signed, notarized releases |
+| `bucket/` | Scoop manifests for packages with Windows builds |
+| `tapster.yml` | which projects this hub publishes |
+| `.tapster/state.json` | the releases tapster published |
 
-Everything here is written by the projects' release workflows; edit the project, not this repository.
+Releases are signed and published by the `tapster` workflow; change the projects, not these files.
