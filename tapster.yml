@@ -12,3 +12,11 @@ packages:
       linux-amd64: "tapster_{version}_linux_amd64.tar.gz"
       linux-arm64: "tapster_{version}_linux_arm64.tar.gz"
     scoop: false
+  - name: ebb
+    repo: doguyilmaz/ebb
+    kind: go
+    binaries: [ebb]
+    assets:
+      darwin-universal: "ebb_{version}_darwin_universal.tar.gz"
+    scoop: false
+    protection: dependabot
