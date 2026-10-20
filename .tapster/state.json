@@ -3,6 +3,12 @@
   "packages": {
     "tapster": [
       {
+        "tag": "v1.2.0",
+        "releaseId": 418266907,
+        "checksums": "89b1c5fc98298b4a7d396b9e3b6491c5afb021c5d464c43dc6016be9f4f8652e",
+        "status": "publishing"
+      },
+      {
         "tag": "v1.1.1",
         "releaseId": 418154268,
         "checksums": "31b4296dd0a61a040570d598eb3a016506c3ca775b7a44c48468e564b7399913",
