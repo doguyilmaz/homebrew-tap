@@ -30,3 +30,22 @@ packages:
       zsh: completions/aims.zsh
       fish: completions/aims.fish
     description: "Several Claude Code and Codex accounts on one machine"
+  - name: ebb
+    repo: doguyilmaz/ebb
+    kind: go
+    binaries: [ebb]
+    assets:
+      darwin-universal: "ebb_{version}_darwin_universal.tar.gz"
+    scoop: false
+    homepage: "https://github.com/doguyilmaz/ebb"
+    license: MIT
+    app:
+      name: "ebb.app"
+      bundle_id: com.doguyilmaz.ebb
+      binaries: ["Contents/MacOS/ebb"]
+    cask:
+      uninstall:
+        launchctl: ["com.doguyilmaz.ebb"]
+      zap:
+        trash: ["~/.config/ebb","~/.local/state/ebb"]
+    description: "See where your disk space went and win it back safely"
