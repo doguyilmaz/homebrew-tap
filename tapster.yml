@@ -12,3 +12,21 @@ packages:
       linux-amd64: "tapster_{version}_linux_amd64.tar.gz"
       linux-arm64: "tapster_{version}_linux_arm64.tar.gz"
     scoop: false
+  - name: aims
+    repo: doguyilmaz/aims
+    kind: go
+    binaries: [aims]
+    assets:
+      darwin-amd64: "aims_{version}_darwin_amd64.tar.gz"
+      darwin-arm64: "aims_{version}_darwin_arm64.tar.gz"
+      linux-amd64: "aims_{version}_linux_amd64.tar.gz"
+      linux-arm64: "aims_{version}_linux_arm64.tar.gz"
+      windows-amd64: "aims_{version}_windows_amd64.zip"
+    scoop: true
+    homepage: "https://doguyilmaz.github.io/aims/"
+    license: MIT
+    completions:
+      bash: completions/aims.bash
+      zsh: completions/aims.zsh
+      fish: completions/aims.fish
+    description: "Several Claude Code and Codex accounts on one machine"
