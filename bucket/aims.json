@@ -1,12 +1,12 @@
 {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/doguyilmaz/aims/releases/download/v0.2.0/aims_0.2.0_windows_amd64.zip",
+            "url": "https://github.com/doguyilmaz/aims/releases/download/v0.2.1/aims_0.2.1_windows_amd64.zip",
             "bin": [
                 "aims.exe"
             ],
-            "hash": "61546593e1d16195996ca846ce3525c40bbe52f8adafe2129806c907e4a08ae9"
+            "hash": "a18adc870518226beaefa9c8559aaa8ed730c072a46e500a697b83affb21e846"
         }
     },
     "homepage": "https://doguyilmaz.github.io/aims/",
