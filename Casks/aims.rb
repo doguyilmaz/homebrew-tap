@@ -10,6 +10,11 @@ cask "aims" do
       sha256 "2f77d92a75f007d33e209ed6448c91a0092037c279f1dcbfbadc0e1ec10324f6"
       url "https://github.com/doguyilmaz/aims/releases/download/v#{version}/aims_#{version}_darwin_amd64.tar.gz"
     end
+
+    app "aims.app"
+    binary "#{appdir}/aims.app/Contents/MacOS/aims"
+
+    uninstall launchctl: "com.doguyilmaz.aims.keepalive"
   end
   on_linux do
     on_arm do
@@ -20,6 +25,8 @@ cask "aims" do
       sha256 "bb9532d6482080bae1c08ce0c6e168eb741e765edb285bb28eacff9e3f68a5eb"
       url "https://github.com/doguyilmaz/aims/releases/download/v#{version}/aims_#{version}_linux_amd64.tar.gz"
     end
+
+    binary "aims"
   end
 
   name "aims"
@@ -30,7 +37,6 @@ cask "aims" do
     skip "tapster"
   end
 
-  binary "aims"
   bash_completion "completions/aims.bash"
   zsh_completion "completions/aims.zsh"
   fish_completion "completions/aims.fish"
