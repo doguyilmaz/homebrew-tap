@@ -29,6 +29,13 @@ packages:
       bash: completions/aims.bash
       zsh: completions/aims.zsh
       fish: completions/aims.fish
+    app:
+      name: "aims.app"
+      bundle_id: com.doguyilmaz.aims
+      binaries: ["Contents/MacOS/aims"]
+    cask:
+      uninstall:
+        launchctl: ["com.doguyilmaz.aims.keepalive"]
     description: "Several Claude Code and Codex accounts on one machine"
   - name: ebb
     repo: doguyilmaz/ebb
