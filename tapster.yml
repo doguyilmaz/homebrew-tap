@@ -1,5 +1,6 @@
 version: 1
 tap: doguyilmaz/tap
+linux: { maintainer: "Dogu Yilmaz <hello@doguyilmaz.com>" }
 packages:
   - name: tapster
     repo: doguyilmaz/tapster
@@ -37,6 +38,7 @@ packages:
       uninstall:
         launchctl: ["com.doguyilmaz.aims.keepalive"]
     description: "Several Claude Code and Codex accounts on one machine"
+    linux: true
   - name: ebb
     repo: doguyilmaz/ebb
     kind: go
