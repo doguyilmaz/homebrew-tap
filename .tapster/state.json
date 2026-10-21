@@ -19,6 +19,12 @@
     ],
     "tapster": [
       {
+        "tag": "v1.6.1",
+        "releaseId": 419966673,
+        "checksums": "f9fd4f7aa19b734f30e919164dd1a36e80242991f56a768e59e3dd63e400bf9e",
+        "status": "publishing"
+      },
+      {
         "tag": "v1.6.0",
         "releaseId": 419750944,
         "checksums": "ead95ddb4935ab07193d615c98863227f63482d85fee1ecde723a769d6f3498b",
