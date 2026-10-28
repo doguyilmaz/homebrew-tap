@@ -24,7 +24,7 @@ packages:
       linux-arm64: "aims_{version}_linux_arm64.tar.gz"
       windows-amd64: "aims_{version}_windows_amd64.zip"
     scoop: true
-    homepage: "https://doguyilmaz.github.io/aims/"
+    homepage: "https://aims.apps.doguyilmaz.com/"
     license: MIT
     completions:
       bash: completions/aims.bash
