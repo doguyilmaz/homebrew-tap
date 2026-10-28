@@ -13,8 +13,6 @@ cask "aims" do
 
     app "aims.app"
     binary "#{appdir}/aims.app/Contents/MacOS/aims"
-
-    uninstall launchctl: "com.doguyilmaz.aims.keepalive"
   end
   on_linux do
     on_arm do
@@ -31,7 +29,7 @@ cask "aims" do
 
   name "aims"
   desc "Several Claude Code and Codex accounts on one machine"
-  homepage "https://doguyilmaz.github.io/aims/"
+  homepage "https://aims.apps.doguyilmaz.com/"
 
   livecheck do
     skip "tapster"
@@ -40,4 +38,6 @@ cask "aims" do
   bash_completion "completions/aims.bash"
   zsh_completion "completions/aims.zsh"
   fish_completion "completions/aims.fish"
+
+  zap trash: "~/Library/LaunchAgents/com.doguyilmaz.aims.keepalive.plist"
 end

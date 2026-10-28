@@ -1,7 +1,7 @@
 {
   "version": "0.3.3",
   "description": "Several Claude Code and Codex accounts on one machine",
-  "homepage": "https://doguyilmaz.github.io/aims/",
+  "homepage": "https://aims.apps.doguyilmaz.com/",
   "license": "MIT",
   "architecture": {
     "64bit": {
