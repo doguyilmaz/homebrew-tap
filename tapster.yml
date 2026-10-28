@@ -35,8 +35,8 @@ packages:
       bundle_id: com.doguyilmaz.aims
       binaries: ["Contents/MacOS/aims"]
     cask:
-      uninstall:
-        launchctl: ["com.doguyilmaz.aims.keepalive"]
+      zap:
+        trash: ["~/Library/LaunchAgents/com.doguyilmaz.aims.keepalive.plist"]
     description: "Several Claude Code and Codex accounts on one machine"
     linux: true
   - name: ebb
