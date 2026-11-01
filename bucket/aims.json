@@ -1,12 +1,12 @@
 {
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Several Claude Code and Codex accounts on one machine",
   "homepage": "https://aims.apps.doguyilmaz.com/",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/doguyilmaz/aims/releases/download/v0.4.3/aims_0.4.3_windows_amd64.zip",
-      "hash": "1feb73af4306ff10067629a5e6659251867c0ea5b306efa52787d4ced521cf1e"
+      "url": "https://github.com/doguyilmaz/aims/releases/download/v0.4.4/aims_0.4.4_windows_amd64.zip",
+      "hash": "0c0880a31a847dd9cc5b2c5a084f9fcbb274b9b076ac53a5d348478b451268ed"
     }
   },
   "bin": "aims.exe"
