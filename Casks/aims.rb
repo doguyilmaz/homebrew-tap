@@ -1,13 +1,13 @@
 cask "aims" do
-  version "0.4.4"
+  version "0.4.5"
 
   on_macos do
     on_arm do
-      sha256 "bb65b216652c16d3cc020c844f7dd5bc0620b2d1d5b9b19c65647d215d93bae9"
+      sha256 "22c7c9d5db1f9ea14899f1d1bb8333b1b192d8e19a04abd2bfb1bef2caca28af"
       url "https://github.com/doguyilmaz/aims/releases/download/v#{version}/aims_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "e3592997a46104b906368ae4aae47acecf82fb63f60451f1bd97e35139502cf9"
+      sha256 "5e05038b8d8599e1c4c62a16917f75d457353373a7f3a9a4cb827d63f076ba16"
       url "https://github.com/doguyilmaz/aims/releases/download/v#{version}/aims_#{version}_darwin_amd64.tar.gz"
     end
 
@@ -16,11 +16,11 @@ cask "aims" do
   end
   on_linux do
     on_arm do
-      sha256 "d9a023f363b6a8dc33a381156d7c4a381032a36460d7d48f9313f5ca8737c547"
+      sha256 "1d1ebcaa14d3a70e3bc466158e67cefe3f842c23c4653d3794070ae5f8ee709c"
       url "https://github.com/doguyilmaz/aims/releases/download/v#{version}/aims_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "31d597b6627d04f498278a1aa6de3f4fc06cdb4698340593ceabbbbbe6d0fb0b"
+      sha256 "7cef49e9ae2d5d96f3181aad23cdc6293d6186b25cef09a841c4f2121cea795b"
       url "https://github.com/doguyilmaz/aims/releases/download/v#{version}/aims_#{version}_linux_amd64.tar.gz"
     end
 
