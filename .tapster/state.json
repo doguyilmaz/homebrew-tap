@@ -95,6 +95,14 @@
         "status": "published"
       }
     ],
+    "rigshelf": [
+      {
+        "tag": "v0.1.0",
+        "releaseId": 439020652,
+        "checksums": "04283b2fb6a583d8c3b2af13855a0a5faba74592344a038593d4bc442f419166",
+        "status": "publishing"
+      }
+    ],
     "tapster": [
       {
         "tag": "v2.0.2",
