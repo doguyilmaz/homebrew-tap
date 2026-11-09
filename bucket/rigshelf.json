@@ -1,0 +1,12 @@
+{
+  "version": "0.1.0",
+  "description": "Set up coding agents for each project from your own library",
+  "homepage": "https://github.com/doguyilmaz/rigshelf",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/doguyilmaz/rigshelf/releases/download/v0.1.0/rigshelf_0.1.0_windows_amd64.zip",
+      "hash": "1c2acb48ed89038697ad2e3eb1caa65c86cbe122db07744038f3bc2ebdb12400"
+    }
+  },
+  "bin": "rigshelf.exe"
+}
