@@ -58,3 +58,15 @@ packages:
       zap:
         trash: ["~/.config/ebb","~/.local/state/ebb"]
     description: "See where your disk space went and win it back safely"
+  - name: rigshelf
+    repo: doguyilmaz/rigshelf
+    kind: bun
+    binaries: [rigshelf]
+    assets:
+      darwin-amd64: "rigshelf_{version}_darwin_amd64.tar.gz"
+      darwin-arm64: "rigshelf_{version}_darwin_arm64.tar.gz"
+      linux-amd64: "rigshelf_{version}_linux_amd64.tar.gz"
+      linux-arm64: "rigshelf_{version}_linux_arm64.tar.gz"
+      windows-amd64: "rigshelf_{version}_windows_amd64.zip"
+    scoop: true
+    description: "Set up coding agents for each project from your own library"
