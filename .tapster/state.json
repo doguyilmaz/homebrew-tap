@@ -108,7 +108,7 @@
         "tag": "v2.1.0",
         "releaseId": 442866947,
         "checksums": "199bc30879ee785f8690e635cb3041193c7e1ba7ea0165e7dcc229bc0a1ae1c0",
-        "status": "publishing"
+        "status": "published"
       },
       {
         "tag": "v2.0.2",
@@ -222,12 +222,6 @@
         "tag": "v1.1.1",
         "releaseId": 418154268,
         "checksums": "31b4296dd0a61a040570d598eb3a016506c3ca775b7a44c48468e564b7399913",
-        "status": "published"
-      },
-      {
-        "tag": "v1.1.0",
-        "releaseId": 418088408,
-        "checksums": "dec2dcc49b3b9bf8da01eeab27a36a0ce2f8ae7fba3004670391e4a8b5d5735d",
         "status": "published"
       }
     ]
