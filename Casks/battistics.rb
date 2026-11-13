@@ -6,7 +6,7 @@ cask "battistics" do
   url "https://github.com/doguyilmaz/battistics/releases/download/v#{version}/Battistics-#{version}.dmg"
   name "Battistics"
   desc "Battery statistics for the Mac"
-  homepage "https://github.com/doguyilmaz/battistics"
+  homepage "https://battistics.doguyilmaz.com"
 
   livecheck do
     skip "Auto-generated on release."
