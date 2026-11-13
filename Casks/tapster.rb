@@ -1,23 +1,23 @@
 cask "tapster" do
-  version "2.2.0"
+  version "2.3.0"
 
   on_macos do
     on_arm do
-      sha256 "7135099af250a8a08059c213b062b03ebc821cdf3760423e5ff9c293665a3ecd"
+      sha256 "0e3f2da7ec6e05921be09586b46909b48982a73d8a9a67bdf4fa4db8f0fcb947"
       url "https://github.com/doguyilmaz/tapster/releases/download/v#{version}/tapster_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "104dbf9b9c34da6b74db2199677f48b44788b04477ab43b4aa1211aaa7baea21"
+      sha256 "ebd35136f3b46195234317bb5165ac2408788e2810dd87664a83ba72e8524836"
       url "https://github.com/doguyilmaz/tapster/releases/download/v#{version}/tapster_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "11125f113d7ac820f09964f187029c65b63e98e820a0dfcb5521c3990942887d"
+      sha256 "c73b581fdcdc8d16fcd2a74597259589d3ce4b20bd852cb33dfa8374bb6fd6ab"
       url "https://github.com/doguyilmaz/tapster/releases/download/v#{version}/tapster_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "f26cb619393ab1f0979aece4b95ce8021c45cdf152501449ec88b760b3a7eeef"
+      sha256 "28a724f8491e878af6d29ad8ae2a50b4dbdce5b01c5840c80d707967d82782c9"
       url "https://github.com/doguyilmaz/tapster/releases/download/v#{version}/tapster_#{version}_linux_amd64.tar.gz"
     end
   end
