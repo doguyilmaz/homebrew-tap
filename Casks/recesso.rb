@@ -5,7 +5,9 @@ cask "recesso" do
   url "https://github.com/doguyilmaz/recesso/releases/download/v#{version}/Recesso-#{version}.dmg"
   name "Recesso"
   desc "Eye, water and movement break reminders with research-backed presets"
-  homepage "https://github.com/doguyilmaz/recesso"
+  homepage "https://recesso.doguyilmaz.com"
+
+  disable! date: "2026-11-15", because: "is now distributed only through the Mac App Store; see https://recesso.doguyilmaz.com"
 
   depends_on macos: ">= :sequoia"
   depends_on arch: :arm64
