@@ -3,6 +3,12 @@
   "packages": {
     "aims": [
       {
+        "tag": "v0.5.0",
+        "releaseId": 449627447,
+        "checksums": "c5239a9e648fff753163ffa8dfc26cce6c849c68f983c2b9f8056ed76a2e04a8",
+        "status": "publishing"
+      },
+      {
         "tag": "v0.4.6",
         "releaseId": 434428420,
         "checksums": "5c05861f8242d0474b36bc74557c7c5c5630f95b3cb4c9ab7417eaa61eb3c80c",
